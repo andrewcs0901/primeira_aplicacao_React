@@ -1,5 +1,32 @@
+body{
+  background-color: darkslategrey;
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  animation-duration: 2s;
+  transition-duration: 1.75s;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  min-width: 5em;
+}
+
+a:hover {
+  transition-duration: 0.3s;
+  background-color: forestgreen;
+  height: 2em;
+  width: 4em;
+}
+
 .App {
   text-align: center;
+  margin: auto;
+  border: 0.2em solid;
+  padding: 2em;
+  margin-top: 10vh;
+  width: 30vw;
 }
 
 .App-logo {
@@ -17,6 +44,24 @@
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+#root{
+  display: flex
+}
+
+.tarefas{
+  text-align: left;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+}
+
+input.todo{
+  border: none;
+    height: 2em;
+    width: 30vw;
+    border-radius: 10px;
+    padding: 0.3em;
+
 }
